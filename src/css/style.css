@@ -1,0 +1,95 @@
+html{
+    background: url(../images/bg-desktop.svg)no-repeat;
+    background-color: var(--bg-medium);
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header{
+   margin: 10px;
+   padding: 10px;
+}
+
+
+.hero{
+    display: flex;
+    margin: 50px 20px 5px 20px;
+    padding: 10px;
+}
+
+.hero .ilustration{
+    margin: 20px;
+    padding: 10px;
+}
+
+.hero .info{
+    justify-items: center;
+    margin: 60px 30px 30px 30px;
+    padding: 10px;
+}
+
+.hero .info h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 10px 30px 10px 10px;
+    color: #fff;
+}
+
+.hero .info .about{
+    font-family: "Open Sans", sansc-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 20px 60px;
+    margin: 30px 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+}
+
+.hero .info a:hover {
+    color: #fff;
+    background-color: var(--hover);
+    opacity: 0.8;
+}
+
+.footer{
+    gap:5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .redes-sociais{
+    margin-right: 60px;
+    display: flex;
+}
+
+.footer .redes-sociais a i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 20px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .redes-sociais a i:hover {
+    color: var(--hover);
+    border: 1px solid 
+}
